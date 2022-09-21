@@ -1,0 +1,13 @@
+Зависимости:
+	"database/sql"
+	"io"
+	"log"
+	"net/http"
+	"strconv"
+	"github.com/go-sql-driver/mysql"
+	
+Инструкция:
+	1. Зайти в директорию webapp
+	2. Запустить mysql, создать БД и инициализировать ее с помощью `source init-db.sql`
+	3. Запустить webapp.go с помощью `go run webapp.go`
+	4. Зайти на http://127.0.0.1:8080	
